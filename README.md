@@ -4,7 +4,9 @@
 ### Getting FRR Installed on Amazon Linux
 Follow the userdata script at [free_range_routing.sh](free_range_routing.sh)
 
+<span style="color:red">
 Note: make sure to allow tcp port 179 on the security group and disable source/destination checks on the instance/interface
+</span>
 
 ### Adding a loop back interface in linux
 ```console
