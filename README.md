@@ -1,9 +1,9 @@
 # Free Range Routing on Amazon Linux 2
 
 <p align="center">
-<img src="images/frr_logo.png" width="300"> 
+<img src="images/frr_logo.png" width="400"> 
 <br>
-<img src="images/amznlinux.png" width="300">
+<img src="images/amznlinux.png" width="400">
 </p>
 
 
@@ -44,5 +44,5 @@
     ```
 
 <p align="center">
-<img src="images/frr_color.png"> 
+<img src="images/frr_color.png" width=600> 
 </p>
