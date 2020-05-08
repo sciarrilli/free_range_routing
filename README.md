@@ -8,10 +8,27 @@
 4. Disable source/destination checks on the instance/interfaces
 5. Add an IP address to the loopback interface in linux
 
-    ```console
+    ``` console
 
     sudo ip addr add 1.1.1.1/32 dev lo
 
     ```
 
 6. Login to frr with *vtysh*
+
+    ``` shell
+
+    service integrated-vtysh-config
+    !
+    router bgp 65001
+     neighbor 172.31.24.201 remote-as 65002
+     !
+     address-family ipv4 unicast
+      network 1.1.1.1/32
+     exit-address-family
+    !
+    end
+    !
+    write
+
+    ```
