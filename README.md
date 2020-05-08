@@ -44,5 +44,5 @@
     ```
 
 <p align="center">
-<img src="images/frr_color.png" width=600> 
+<img src="images/frr_color.png" width=850> 
 </p>
