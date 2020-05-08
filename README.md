@@ -1,4 +1,4 @@
-# Free Range Routing on Amazon Linux
+# Free Range Routing on Amazon Linux 2
 
 <p align="center">
 <img src="images/frr_logo.png" width="300"> 
@@ -42,3 +42,7 @@
     write
 
     ```
+
+<p align="center">
+<img src="images/frr_color.png" width="400"> 
+</p>
