@@ -2,6 +2,8 @@
 
 ![](images/frr_logo.png) + ![](images/amznlinux.png)
 
+<img src="images/amznlinux.png" width="48">
+
 ## Getting FRR Installed on Amazon Linux
 
 1. Create an Amazon Linux 2 instance
