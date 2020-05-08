@@ -16,7 +16,7 @@
 
 6. Login to frr with *vtysh*
 
-    ``` shell
+    ``` bash
 
     service integrated-vtysh-config
     !
