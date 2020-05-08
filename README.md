@@ -1,12 +1,11 @@
 # Free Range Routing on Amazon Linux
 
-## Round 1
-### Getting FRR Installed on Amazon Linux
-Follow the userdata script at [free_range_routing.sh](free_range_routing.sh)
+## Getting FRR Installed on Amazon Linux
 
-```diff
-- Note: make sure to allow tcp port 179 on the security group and disable source/destination checks on the instance/interface
-```
+1. Create an Amazon Linux 2 instance
+2. use the [free_range_routing.sh](free_range_routing.sh) script for userdata on the instance
+3. On the security group allow inbound tcp port 179 for bgp and ping for testing
+4. Disable source/destination checks on the instance/interfaces
 
 ### Adding a loop back interface in linux
 ```console
