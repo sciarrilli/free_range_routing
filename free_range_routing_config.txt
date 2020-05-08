@@ -1,0 +1,27 @@
+# free range routing in amazon linux
+
+sudo ip addr add 1.1.1.1/32 dev lo
+sudo ip addr add 3.3.3.3/32 dev lo
+
+sudo vtysh
+
+show run
+
+frr version 7.2
+frr defaults traditional
+hostname r1
+service integrated-vtysh-config
+no ip forwarding
+no ipv6 forwarding
+!
+router bgp 65001
+ neighbor 172.31.24.201 remote-as 65002
+ !
+ address-family ipv4 unicast
+  network 1.1.1.1/32
+  network 3.3.3.3/32
+ exit-address-family
+!
+line vty
+!
+end
