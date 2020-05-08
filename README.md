@@ -10,6 +10,8 @@
 
 ## Getting FRR Installed on Amazon Linux
 
+I set this up because I wanted to simple lab to mess around with BGP and ISIS. I would have used EVE-NG but could not get it to play nice with a bare metal m5 in aws.
+
 1. Create an Amazon Linux 2 instance
 2. Use the [free_range_routing.sh](free_range_routing.sh) script for userdata on the instance
 
