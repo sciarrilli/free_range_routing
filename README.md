@@ -1,5 +1,7 @@
 # Free Range Routing on Amazon Linux
 
+![alt text](images/frr.png)
+
 ## Getting FRR Installed on Amazon Linux
 
 1. Create an Amazon Linux 2 instance
