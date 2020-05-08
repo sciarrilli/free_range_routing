@@ -1,6 +1,6 @@
 # Free Range Routing on Amazon Linux
 
-![](images/frr.jpg) + ![](images/amazon_linux.png)
+![](images/frr_logo.png) + ![](images/amznlinux.png)
 
 ## Getting FRR Installed on Amazon Linux
 
