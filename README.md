@@ -6,6 +6,7 @@
 <img src="images/amznlinux.png" width="400">
 </p>
 
+---
 
 ## Getting FRR Installed on Amazon Linux
 
@@ -42,6 +43,8 @@
     write
 
     ```
+
+---
 
 <p align="center">
 <img src="images/frr_color.png" width=700> 
